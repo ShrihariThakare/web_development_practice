@@ -1,0 +1,62 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h3{
+    color: #b92b27;
+}
+#login{
+   background-color: white; 
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+background-color: green;
+color: aliceblue;
+}
+ /*desendant selector */
+ p a{
+    color: purple;
+    background-color: yellow;
+ }
+ nav ul li{
+color: hotpink;
+ }
+ /*this is my sibling combinator*/
+ p + h3{
+    text-decoration: underline;
+ }
+ .upvote + button{
+    background-color: cornflowerblue;
+    color: darkblue;
+ }
+ input[type="text"]{
+   color: rgb(0, 255, 115);
+ }
+ input[type="password"]{
+   color: red;
+ }
+ /*this is my attribute selector*/
+ div[id="myId"] p{
+   color: green;
+ }
+ /*pseudo class*/
+ button:hover{
+   background-color: black;
+   color: white;
+ }
+ h3:hover{
+   text-decoration: none;
+ }
+ button:active{
+   background-color: hotpink;
+ }
+ p:active{
+   font-weight: bold;
+   color: green;
+ }
+ input[type="radio"]:checked + label{
+   color: red;
+   font-weight: bold;
+ }
