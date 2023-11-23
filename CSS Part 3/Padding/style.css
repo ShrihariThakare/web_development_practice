@@ -16,3 +16,11 @@ h1{
    border-style: dashed;
    border-color: green;
 }
+button{
+   border:2px solid black;
+   border-radius:10px;
+   padding-left:25px;
+   padding-right:25px;
+   background-color:yellow;
+}
+
