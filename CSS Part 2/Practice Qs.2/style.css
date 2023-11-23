@@ -1,0 +1,43 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h3{
+    color: #b92b27;
+}
+#login{
+   background-color: white; 
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+background-color: green;
+color: aliceblue;
+}
+ /*desendant selector */
+ p a{
+    color: purple;
+    background-color: yellow;
+ }
+ nav ul li{
+color: hotpink;
+ }
+ /*this is my sibling combinator*/
+ p + h3{
+    text-decoration: underline;
+ }
+ .upvote + button{
+    background-color: cornflowerblue;
+    color: darkblue;
+ }
+ input[type="text"]{
+   color: rgb(0, 255, 115);
+ }
+ input[type="password"]{
+   color: red;
+ }
+ /*this is my attribute selector*/
+ div[id="myId"] p{
+   color: green;
+ }
