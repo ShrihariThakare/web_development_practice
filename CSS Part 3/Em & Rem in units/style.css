@@ -1,0 +1,29 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    font-size: 1.5em;
+}
+button{
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid green;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 1em;
+
+}
+/*this is the draw back of EM unit it is create the snowboll effect*/
+div{
+    font-size: 2em;
+}
+/*to aviod this snoball effect we arecreated a new unit called REM*/
+p{
+    font-size: 2rem;
+} 
