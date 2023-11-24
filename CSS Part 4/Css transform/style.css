@@ -1,0 +1,34 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+/*Transform*/
+/*rotation property*/
+#one{
+    transform: rotate(45deg);
+}
+/*scale property*/
+#two{
+transform:scale(0.5);
+}
+/*translate property*/
+#three{
+transform:translate(100px) ;
+}
+/*skew property*/
+#four{
+    transform: skew(30deg);
+}
