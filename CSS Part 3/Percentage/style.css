@@ -1,0 +1,16 @@
+h1{
+    border: 2px solid black;
+    width: 33%;
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: hotpink;
+    margin: 50px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin:50%;
+}
