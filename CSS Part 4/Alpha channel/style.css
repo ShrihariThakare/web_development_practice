@@ -1,0 +1,11 @@
+/* this is my alpha channel*/
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(77, 255, 0,1);
+}
+/*this is my opacity*/
+#opacity{
+    background-color: orangered;
+    opacity: 0.5;
+}
