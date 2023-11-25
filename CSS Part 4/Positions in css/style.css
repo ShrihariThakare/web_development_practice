@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+/*here my static position*/
+#static{
+    background-color: yellow;
+    position: static;
+}
+/*here my relative position*/
+#relative{
+background-color: yellow;
+position: relative;
+top: 100px;
+left:100px;
+}
+/*here my absolute position*/
+#Absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left:100px;
+    }
+/* here my fixd position */
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left:100px;
+    }
