@@ -1,0 +1,28 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: hotpink;
+    text-align : center;
+
+    /*this ia my animation shorthand*/
+    animation: coloranimate 5s ease-in 0s infinite normal;
+}
+
+/*this is my animation templates*/
+@keyframes coloranimate{
+    0%{
+        background-color: green;
+    }
+    50%{
+        width:400px;
+        background-color: yellowgreen;
+    }
+    80%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+
+   
