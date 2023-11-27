@@ -1,0 +1,15 @@
+h1{
+    background-color: yellowgreen;
+    border: 3px solid black;
+}
+
+@media (width:400px){
+    h1{
+        background-color: red;
+    }
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
