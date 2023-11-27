@@ -1,0 +1,39 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: hotpink;
+    text-align : center;
+
+    /*this is my animation*/
+   /* animation-name: widthanimate;
+    animation-duration: 3s;
+    animation-timing-function: else-in;
+    animation-delay: 0;
+    animation-iteration-count:3;
+    animation-direction:narmal;*/
+
+
+    /*this ia my animation shorthand*/
+    animation: widthanimate 3s ease-in 0s infinite normal;
+}
+
+/*this is my animation templates*/
+@keyframes widthanimate{
+    from{
+        width:10px;
+        background-color: green;
+    }
+    to{
+        width:400px;
+        background-color: blue;
+    }
+}
+    @keyframes fontAnimation{
+        from{
+            font-size: 20px;
+         }
+        to {
+            font-size:40px ;
+        }
+    }
+   
