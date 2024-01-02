@@ -1,0 +1,1 @@
+console.log("let's start the journy of javascript.");
