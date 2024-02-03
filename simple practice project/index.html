@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infosys Limited</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('Infosys.jpg.jpg'); /* Replace 'background.jpg' with the path to your background image */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color:transparent;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      color: blue;
+      opacity:75%;
+      font-size:x-large;
+    }
+
+    nav {
+      margin-bottom: 20px;
+      padding-left: 700px;
+      margin:10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color:black;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 4px;
+      background-color:whitesmoke;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+    }
+
+    p{
+      color: black;
+      background-color: rgb(163, 181, 196);
+     justify-content: center;
+      display:inline-block;
+    }
+
+    h2{
+      color:rgb(226, 219, 233);
+      text-decoration:underline 5px blue;
+    }
+
+    section {
+      background-color: transparent;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      display:none;
+      padding-left: 700px;
+      color:whitesmoke;
+      font-size: large;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 700;
+    }
+
+     section.active {
+     display: inline-block; 
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Infosys</h1>
+  </header>
+
+  <nav class="pt">
+    <a onclick="showTab('home')">Home</a>
+    <a onclick="showTab('about')">About</a>
+    <a onclick="showTab('services')">Services</a>
+    <a onclick="showTab('contact')">Contact</a>
+  </nav>
+
+  <section id="home" class="active">
+    <h2>Home</h2>
+    <p>Infosys Limited is an Indian multinational information technology company that provides business consulting, information technology and outsourcing services. The company was founded in Pune and is headquartered in Bangalore.[5] Infosys is the second-largest Indian IT company, after Tata Consultancy Services, by 2020 revenue figures.</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p> "Discover our company's rich history, mission, and commitment to delivering exceptional products/services <br> that cater to your needs."</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <p> "Our comprehensive range of services is designed to meet your diverse needs, providing expert solutions and <br> exceptional experiences tailored to enhance your journey with us."</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Contact us <a>Email:-<i>Infosys@gmail.com</i><br>Mo.no:-9057189123</a></p>
+  </section>
+
+  <script>
+    function showTab(tabId) {
+      // Hide all sections
+      var sections = document.querySelectorAll('section');
+      sections.forEach(function(section) {
+        section.classList.remove('active');
+      });
+
+      // Show the selected section
+      var selectedSection = document.getElementById(tabId);
+      selectedSection.classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
